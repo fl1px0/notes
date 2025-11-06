@@ -62,6 +62,31 @@
         </div>
 
     </div>
+<div id="overlay" class="overlay">
+    <div class="modal">
+        <h2>Заметка</h2>
+
+        <form id="ModalForm">
+            <input id="ModalTitle" type="text" class="modal_input" placeholder="Название">
+
+            <select id="ModalSelect" class="modal_select">
+                <option value="Все">Все</option>
+                <option value="Идеи">Идеи</option>
+                <option value="Личное">Личное</option>
+                <option value="Работа">Работа</option>
+                <option value="Список покупок">Список покупок</option>
+            </select>
+
+            <div class="modal_btns">
+                <button id="ModalButtonSave" class="modal_save">Сохранить</button>
+                <button id="btnModalClose" class="modal_close">Закрыть</button>
+                <button id="ModalButtonDelete" class="modal_delete" style="display:none;">Удалить</button>
+            </div>
+        </form>
+    </div>
+</div>
+
+    <script src="./script.js"></script>
 </body>
 
 </html>
